@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
+    <nome><![CDATA[Obter auxílio-doença]]></nome>
+    <sigla/>
+    <nomes-populares/>
+    <descricao><![CDATA[O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>Cidadão doente incapaz de trabalhar temporariamente</tipo>
+            <requisitos><![CDATA[- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
+- Possuir a carência de 12 contribuições (isenta em caso de acidente de trabalho ou doenças previstas em lei);]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Empregado em empresa</tipo>
+            <requisitos><![CDATA[Estar afastado do trabalho há pelo menos 15 dias (corridos ou intercalados dentro do prazo de 60 dias)]]></requisitos>
+        </solicitante>
+        <solicitante>
+            <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao/>
+    </tempo-total-estimado>
+    <etapas/>
+    <orgao id=""/>
+    <segmentos-da-sociedade/>
+    <areas-de-interesse/>
+    <palavras-chave/>
+    <legislacoes/>
+</servico>
