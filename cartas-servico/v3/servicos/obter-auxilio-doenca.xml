@@ -31,7 +31,7 @@
             <descricao><![CDATA[Caso não possa comparecer à perícia médica no dia e hora marcados, você pode solicitar a remarcação, uma única vez, até três dias antes da data agendada, pelo telefone 135.]]></descricao>
             <documentos>
                 <default>
-                    <item>NIT</item>
+                    <item>NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</item>
                 </default>
             </documentos>
             <custos>
