@@ -8,7 +8,7 @@
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>Cidadão doente não empregado de empresa</tipo>
+            <tipo>Desempregado</tipo>
             <requisitos><![CDATA[- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
 - Possuir a carência de 12 contribuições ao INSS (isenta em caso de acidente de trabalho ou doenças previstas em lei) (Veja aqui se você possui esse requisito)]]></requisitos>
         </solicitante>
@@ -18,6 +18,22 @@
         </solicitante>
         <solicitante>
             <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Trabalhador avulso</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Contribuinte Individual</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Conribuinte Facultativo</tipo>
+            <requisitos/>
+        </solicitante>
+        <solicitante>
+            <tipo>Empregado Doméstico</tipo>
             <requisitos/>
         </solicitante>
     </solicitantes>
@@ -33,6 +49,10 @@
                 <default>
                     <item>NIT - Número de Identificação do Trabalhador (PIS/PASEP/CICI)</item>
                 </default>
+                <caso descricao="Se for empregado de empresa">
+                    <item>CNPJ/CGC ou</item>
+                    <item>CEI</item>
+                </caso>
             </documentos>
             <custos>
                 <default/>
