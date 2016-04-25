@@ -58,7 +58,11 @@
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao tipo="web-agendar">
+                        <descricao><![CDATA[http://www2.dataprev.gov.br/sabiweb/agendamento/escolherAPS.view#sabiweb]]></descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
         <etapa>
