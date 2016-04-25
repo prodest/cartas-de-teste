@@ -100,7 +100,11 @@
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default/>
+                <default>
+                    <canal-de-prestacao tipo="web-consultar">
+                        <descricao><![CDATA[http://www.mtps.gov.br/consulta-de-situacao-de-beneficio]]></descricao>
+                    </canal-de-prestacao>
+                </default>
             </canais-de-prestacao>
         </etapa>
         <etapa>
