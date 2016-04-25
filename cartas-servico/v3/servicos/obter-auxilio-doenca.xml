@@ -4,7 +4,7 @@
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[O auxílio-doença é um benefício por incapacidade devido ao segurado do INSS acometido por uma doença ou acidente que o torne temporariamente incapaz para o trabalho.]]></descricao>
-    <contato/>
+    <contato><![CDATA[Através do telefone 135]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -113,9 +113,21 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id=""/>
-    <segmentos-da-sociedade/>
-    <areas-de-interesse/>
-    <palavras-chave/>
-    <legislacoes/>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/2844"/>
+    <segmentos-da-sociedade>
+        <item>Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Previdência Social</item>
+        <item>Trabalho</item>
+        <item>Saúde</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item>doente</item>
+        <item>afastamento</item>
+        <item>ajuda</item>
+    </palavras-chave>
+    <legislacoes>
+        <item><![CDATA[Lei x]]></item>
+    </legislacoes>
 </servico>
