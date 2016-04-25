@@ -8,13 +8,13 @@
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
-            <tipo>Cidadão doente incapaz de trabalhar temporariamente</tipo>
+            <tipo>Cidadão doente não empregado de empresa</tipo>
             <requisitos><![CDATA[- Comprovar doença que torne o cidadão temporariamente incapaz de trabalhar;
-- Possuir a carência de 12 contribuições (isenta em caso de acidente de trabalho ou doenças previstas em lei);]]></requisitos>
+- Possuir a carência de 12 contribuições ao INSS (isenta em caso de acidente de trabalho ou doenças previstas em lei) (Veja aqui se você possui esse requisito)]]></requisitos>
         </solicitante>
         <solicitante>
-            <tipo>Empregado em empresa</tipo>
-            <requisitos><![CDATA[Estar afastado do trabalho há pelo menos 15 dias (corridos ou intercalados dentro do prazo de 60 dias)]]></requisitos>
+            <tipo>Cidadão doente empregado em empresa</tipo>
+            <requisitos><![CDATA[Estar afastado do trabalho há pelo menos 30 dias (corridos ou intercalados dentro do prazo de 60 dias)]]></requisitos>
         </solicitante>
         <solicitante>
             <tipo>Segurado especial (trabalhador rural, lavrador, pescador):</tipo>
