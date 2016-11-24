@@ -124,7 +124,7 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066"/>
+    <orgao id="https://api.es.gov.br/organograma/5570"/>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
     </segmentos-da-sociedade>
